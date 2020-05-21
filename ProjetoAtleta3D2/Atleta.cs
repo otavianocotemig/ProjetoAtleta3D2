@@ -12,5 +12,8 @@ namespace ProjetoAtleta3D2
         private double peso;
         private double altura;
 
+        public string Nome { get => nome; set => nome = value; }
+        public double Peso { get => peso; set => peso = value; }
+        public double Altura { get => altura; set => altura = value; }
     }
 }
